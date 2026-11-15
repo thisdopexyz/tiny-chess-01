@@ -1,8 +1,18 @@
-# tiny-chess-01 starter
+# tiny-chess-01
 
-A working entry to fork: `main.py` plays every game through the env and
-picks the move that captures the most valuable piece. It is a template,
-not a contender. Replace its one-line choice with a real search.
+[![make.fun · tiny-chess-01](https://make.fun/badge/tiny-chess-01.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![rank](https://make.fun/badge/tiny-chess-01/thisdopexyz/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+[![reward](https://make.fun/badge/tiny-chess-01/thisdopexyz/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
+
+A 0x88 chess engine in one 4 KB Python file: fixed node budget, alpha-beta
+with a null-window re-search, bounded quiescence, and an evaluation of
+material, piece-square, pawn structure and bishop pair.
+
+Run it against the competition's env:
+
+    MAKEFUN_ENV_URL=http://127.0.0.1:PORT python3 -P -s main.py
+
+Bounty page: https://make.fun/bounty/tiny-chess-01
 
 ## The size rule
 
